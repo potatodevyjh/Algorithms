@@ -9,7 +9,7 @@ def solution(progresses, speeds):
             speeds.pop(0)
             cnt +=1  # 넘어간 개발의 수 
             
-        else : # 더 개발해야함 # 시간이 더 필요 
+        else : # 더 개발해야하는 경우, 시간이 더 필요 
             if cnt > 0 : # 연속으로 넘어갈 기회를 놓침 
                 answer.append(cnt) 
                 cnt = 0
