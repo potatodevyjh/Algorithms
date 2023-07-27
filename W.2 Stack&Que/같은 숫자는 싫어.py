@@ -1,6 +1,5 @@
 def solution(arr):
     answer = []
-    # [실행] 버튼을 누르면 출력 값을 볼 수 있습니다.
     for i in range(len(arr)):
         if i == 0:
             answer.append(arr[i])
@@ -9,7 +8,7 @@ def solution(arr):
     return answer
 
 
-def solution_2(arr):
+def solution_2(arr): # 한 줄이라도 줄여보기
     answer = [arr[0]]
     for i in range(1, len(arr)):
         if arr[i] != arr[i-1]:
